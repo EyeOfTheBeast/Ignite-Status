@@ -1,4 +1,4 @@
-Indicators for Ignite and Scorch for Fire Mages on World of Warcraft (WoW) version 1.12.1 vanilla private servers.
+Ignite Status addon: Indicators for Ignite and Scorch for Fire Mages on World of Warcraft (WoW) version 1.12.1 vanilla private servers.
 
 The in-game commands for this addon are as follows:
 
