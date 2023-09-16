@@ -11,3 +11,5 @@ The in-game commands for this addon are as follows:
 /is summary - Enable/Disable ignite summary
 
 /is lock - Enable/Disable lock
+
+Addon original author: Oh Snap! of Moonrunner modified by Eya of Detheroc. I am merely reuploading it to GitHub for preservation purposes.
