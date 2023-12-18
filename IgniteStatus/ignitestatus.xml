@@ -163,11 +163,11 @@
                             </Offset>
                         </Anchor>
                     </Anchors>
-                </FontString>               
+                </FontString>
             </Layer>
 
             <Layer level="OVERLAY">
-            </Layer>            
+            </Layer>
 
         </Layers>
     </Frame>
@@ -203,7 +203,7 @@
                 <AbsDimension x="0" y="0"/>
             </Offset>
         </Anchors>
-        
+
         <Frames>
         	<Button name="IgniteHideButton">
                 <Size>
@@ -218,7 +218,7 @@
                 </Anchors>
                 <Scripts>
                     <OnEnter>
-                        IGNITESTATUS_ShowTooltip(WCLocale.UI.text.mouseoverHide);
+                        IGNITESTATUS_ShowTooltip("Turn Off");
                     </OnEnter>
                     <OnLeave>
                         GameTooltip:Hide();
@@ -230,7 +230,7 @@
                 <NormalTexture file="Interface\AddOns\IgniteStatus\Textures\CloseButton-Up"/>
                 <PushedTexture file="Interface\AddOns\IgniteStatus\Textures\CloseButton-Down"/>
                 <HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" alphaMode="ADD"/>
-        	</Button> 
+        	</Button>
             <Frame name="igniteFrame" inherits="Ignite_Template">
                 <Size>
                     <AbsDimension x="220" y="84"/>
@@ -246,7 +246,3 @@
         </Frames>
     </Frame>
 </Ui>
-
-
-
-
